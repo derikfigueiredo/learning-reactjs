@@ -5,11 +5,11 @@ function App() {
 
 
   const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value );
+    setName(event.target.value);
   }
 
   return (
-    <div>
+    <div> 
        <input type="text" value={name} onChange={handleInput}/>
        <div>Seu nome é:{name}</div>
     </div>
